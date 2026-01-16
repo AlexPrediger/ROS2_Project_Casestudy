@@ -1,0 +1,555 @@
+[0.234s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.235s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff88834710>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff889e0dd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff889e0dd0>>, mixin_verb=('build',))
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.320s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi/ros2_ws'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_teleop) by extension 'ignore'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_teleop) by extension 'ignore_ament_install'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_teleop) by extensions ['colcon_pkg']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_teleop) by extension 'colcon_pkg'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_teleop) by extensions ['colcon_meta']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_teleop) by extension 'colcon_meta'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_teleop) by extensions ['ros']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_teleop) by extension 'ros'
+[0.383s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann_teleop' with type 'ros.ament_python' and name 'ackermann_teleop'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_vesc_adapter) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_vesc_adapter) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_vesc_adapter) by extension 'ignore_ament_install'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_vesc_adapter) by extensions ['colcon_pkg']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_vesc_adapter) by extension 'colcon_pkg'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_vesc_adapter) by extensions ['colcon_meta']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_vesc_adapter) by extension 'colcon_meta'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_vesc_adapter) by extensions ['ros']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_vesc_adapter) by extension 'ros'
+[0.386s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann_vesc_adapter' with type 'ros.ament_python' and name 'ackermann_vesc_adapter'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extension 'ignore_ament_install'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extensions ['colcon_pkg']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extension 'colcon_pkg'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extensions ['colcon_meta']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extension 'colcon_meta'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extensions ['ros']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive) by extension 'ros'
+[0.387s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drive' with type 'ros.ament_python' and name 'drive'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ackermann_steering_vehicle) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ackermann_steering_vehicle) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ackermann_steering_vehicle) by extension 'ignore_ament_install'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ackermann_steering_vehicle) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ackermann_steering_vehicle) by extension 'colcon_pkg'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ackermann_steering_vehicle) by extensions ['colcon_meta']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ackermann_steering_vehicle) by extension 'colcon_meta'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ackermann_steering_vehicle) by extensions ['ros']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ackermann_steering_vehicle) by extension 'ros'
+[0.390s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ackermann_steering_vehicle' with type 'ros.ament_cmake' and name 'gazebo_ackermann_steering_vehicle'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'ros'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['cmake', 'python']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'cmake'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'python'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['python_setup_py']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'python_setup_py'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'ros'
+[0.394s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vesc/vesc' with type 'ros.ament_cmake' and name 'vesc'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'ignore_ament_install'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extensions ['colcon_pkg']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'colcon_pkg'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extensions ['colcon_meta']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'colcon_meta'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extensions ['ros']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'ros'
+[0.397s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vesc/vesc_driver' with type 'ros.ament_cmake' and name 'vesc_driver'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'colcon_meta'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extensions ['ros']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'ros'
+[0.399s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vesc/vesc_msgs' with type 'ros.ament_cmake' and name 'vesc_msgs'
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.440s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/pi/ros2_ws/install/vesc' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.440s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/pi/ros2_ws/install/vesc_driver' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.440s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/pi/ros2_ws/install/vesc_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.440s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/pi/ros2_ws/install/drive' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.441s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/pi/ros2_ws/install/vesc' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.441s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/pi/ros2_ws/install/vesc_driver' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.441s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/pi/ros2_ws/install/vesc_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.444s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/pi/ros2_ws/install
+[0.448s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 327 installed packages in /opt/ros/kilted
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'cmake_target' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.530s] DEBUG:colcon.colcon_core.verb:Building package 'ackermann_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ros2_ws/build/ackermann_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ros2_ws/install/ackermann_teleop', 'merge_install': False, 'path': '/home/pi/ros2_ws/src/ackermann_teleop', 'symlink_install': True, 'test_result_base': None}
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'ackermann_vesc_adapter' build argument 'cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'ackermann_vesc_adapter' build argument 'cmake_target' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'ackermann_vesc_adapter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'ackermann_vesc_adapter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'ackermann_vesc_adapter' build argument 'cmake_clean_first' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'ackermann_vesc_adapter' build argument 'cmake_force_configure' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'ackermann_vesc_adapter' build argument 'ament_cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'ackermann_vesc_adapter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'ackermann_vesc_adapter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.531s] DEBUG:colcon.colcon_core.verb:Building package 'ackermann_vesc_adapter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ros2_ws/build/ackermann_vesc_adapter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ros2_ws/install/ackermann_vesc_adapter', 'merge_install': False, 'path': '/home/pi/ros2_ws/src/ackermann_vesc_adapter', 'symlink_install': True, 'test_result_base': None}
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'cmake_target' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'cmake_clean_cache' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'cmake_clean_first' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'cmake_force_configure' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'ament_cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'catkin_cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'drive' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.531s] DEBUG:colcon.colcon_core.verb:Building package 'drive' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ros2_ws/build/drive', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ros2_ws/install/drive', 'merge_install': False, 'path': '/home/pi/ros2_ws/src/drive', 'symlink_install': True, 'test_result_base': None}
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ackermann_steering_vehicle' build argument 'cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ackermann_steering_vehicle' build argument 'cmake_target' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ackermann_steering_vehicle' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ackermann_steering_vehicle' build argument 'cmake_clean_cache' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ackermann_steering_vehicle' build argument 'cmake_clean_first' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ackermann_steering_vehicle' build argument 'cmake_force_configure' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ackermann_steering_vehicle' build argument 'ament_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ackermann_steering_vehicle' build argument 'catkin_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ackermann_steering_vehicle' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.532s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ackermann_steering_vehicle' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle', 'merge_install': False, 'path': '/home/pi/ros2_ws/src/gazebo_ackermann_steering_vehicle', 'symlink_install': True, 'test_result_base': None}
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_target' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.532s] DEBUG:colcon.colcon_core.verb:Building package 'vesc_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ros2_ws/build/vesc_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ros2_ws/install/vesc_msgs', 'merge_install': False, 'path': '/home/pi/ros2_ws/src/vesc/vesc_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_target' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.533s] DEBUG:colcon.colcon_core.verb:Building package 'vesc_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ros2_ws/build/vesc_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ros2_ws/install/vesc_driver', 'merge_install': False, 'path': '/home/pi/ros2_ws/src/vesc/vesc_driver', 'symlink_install': True, 'test_result_base': None}
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_target' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_clean_first' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_force_configure' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'ament_cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.533s] DEBUG:colcon.colcon_core.verb:Building package 'vesc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ros2_ws/build/vesc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ros2_ws/install/vesc', 'merge_install': False, 'path': '/home/pi/ros2_ws/src/vesc/vesc', 'symlink_install': True, 'test_result_base': None}
+[0.534s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.535s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.536s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/ros2_ws/src/vesc/vesc_msgs' with build type 'ament_cmake'
+[0.537s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/ros2_ws/src/vesc/vesc_msgs'
+[0.541s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.542s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.550s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/ros2_ws/src/ackermann_teleop' with build type 'ament_python'
+[0.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_teleop', 'ament_prefix_path')
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/ackermann_teleop/share/ackermann_teleop/hook/ament_prefix_path.ps1'
+[0.553s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/ackermann_teleop/share/ackermann_teleop/hook/ament_prefix_path.dsv'
+[0.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/ackermann_teleop/share/ackermann_teleop/hook/ament_prefix_path.sh'
+[0.555s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.555s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.562s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/ros2_ws/src/ackermann_vesc_adapter' with build type 'ament_python'
+[0.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_vesc_adapter', 'ament_prefix_path')
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/ackermann_vesc_adapter/share/ackermann_vesc_adapter/hook/ament_prefix_path.ps1'
+[0.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/ackermann_vesc_adapter/share/ackermann_vesc_adapter/hook/ament_prefix_path.dsv'
+[0.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/ackermann_vesc_adapter/share/ackermann_vesc_adapter/hook/ament_prefix_path.sh'
+[0.570s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.570s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.574s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/ros2_ws/src/drive' with build type 'ament_python'
+[0.574s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive', 'ament_prefix_path')
+[0.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/drive/share/drive/hook/ament_prefix_path.ps1'
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/drive/share/drive/hook/ament_prefix_path.dsv'
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/drive/share/drive/hook/ament_prefix_path.sh'
+[0.577s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/ros2_ws/src/vesc/vesc_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/vesc_msgs
+[0.990s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/ros2_ws/src/ackermann_teleop'
+[0.991s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.991s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.429s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/ros2_ws/src/ackermann_vesc_adapter'
+[1.429s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.429s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.826s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/ros2_ws/src/drive'
+[1.826s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.826s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/ackermann_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_ws/build/ackermann_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/ackermann_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/build/ackermann_teleop/build --no-deps symlink_data
+[3.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/ackermann_vesc_adapter': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_ws/build/ackermann_vesc_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/ackermann_vesc_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/build/ackermann_vesc_adapter/build --no-deps symlink_data
+[3.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/drive': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_ws/build/drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/drive/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/build/drive/build --no-deps symlink_data
+[5.029s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_teleop', 'pythonpath_develop')
+[5.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/build/ackermann_teleop/share/ackermann_teleop/hook/pythonpath_develop.ps1'
+[5.031s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/ackermann_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_ws/build/ackermann_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/ackermann_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/build/ackermann_teleop/build --no-deps symlink_data
+[5.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/build/ackermann_teleop/share/ackermann_teleop/hook/pythonpath_develop.dsv'
+[5.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/build/ackermann_teleop/share/ackermann_teleop/hook/pythonpath_develop.sh'
+[5.039s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/ackermann_teleop' for CMake module files
+[5.040s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/ackermann_teleop' for CMake config files
+[5.041s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/ackermann_teleop/lib'
+[5.041s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/ackermann_teleop/bin'
+[5.041s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/ackermann_teleop/lib/pkgconfig/ackermann_teleop.pc'
+[5.042s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/ackermann_teleop/lib/python3.12/site-packages'
+[5.042s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_teleop', 'pythonpath')
+[5.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/ackermann_teleop/share/ackermann_teleop/hook/pythonpath.ps1'
+[5.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/ackermann_teleop/share/ackermann_teleop/hook/pythonpath.dsv'
+[5.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/ackermann_teleop/share/ackermann_teleop/hook/pythonpath.sh'
+[5.045s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/ackermann_teleop/bin'
+[5.046s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_teleop)
+[5.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/ackermann_teleop/share/ackermann_teleop/package.ps1'
+[5.047s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/ackermann_teleop/share/ackermann_teleop/package.dsv'
+[5.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/ackermann_teleop/share/ackermann_teleop/package.sh'
+[5.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/ackermann_teleop/share/ackermann_teleop/package.bash'
+[5.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/ackermann_teleop/share/ackermann_teleop/package.zsh'
+[5.051s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/ackermann_teleop/share/colcon-core/packages/ackermann_teleop)
+[5.053s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/ros2_ws/src/gazebo_ackermann_steering_vehicle' with build type 'ament_cmake'
+[5.053s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/ros2_ws/src/gazebo_ackermann_steering_vehicle'
+[5.054s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.054s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/ros2_ws/src/gazebo_ackermann_steering_vehicle -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle
+[5.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_vesc_adapter', 'pythonpath_develop')
+[5.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/build/ackermann_vesc_adapter/share/ackermann_vesc_adapter/hook/pythonpath_develop.ps1'
+[5.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/ackermann_vesc_adapter' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_ws/build/ackermann_vesc_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/ackermann_vesc_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/build/ackermann_vesc_adapter/build --no-deps symlink_data
+[5.177s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/build/ackermann_vesc_adapter/share/ackermann_vesc_adapter/hook/pythonpath_develop.dsv'
+[5.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/build/ackermann_vesc_adapter/share/ackermann_vesc_adapter/hook/pythonpath_develop.sh'
+[5.179s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/ackermann_vesc_adapter' for CMake module files
+[5.181s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/ackermann_vesc_adapter' for CMake config files
+[5.182s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/ackermann_vesc_adapter/lib'
+[5.182s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/ackermann_vesc_adapter/bin'
+[5.182s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/ackermann_vesc_adapter/lib/pkgconfig/ackermann_vesc_adapter.pc'
+[5.183s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/ackermann_vesc_adapter/lib/python3.12/site-packages'
+[5.183s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_vesc_adapter', 'pythonpath')
+[5.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/ackermann_vesc_adapter/share/ackermann_vesc_adapter/hook/pythonpath.ps1'
+[5.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/ackermann_vesc_adapter/share/ackermann_vesc_adapter/hook/pythonpath.dsv'
+[5.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/ackermann_vesc_adapter/share/ackermann_vesc_adapter/hook/pythonpath.sh'
+[5.201s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/ackermann_vesc_adapter/bin'
+[5.201s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_vesc_adapter)
+[5.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/ackermann_vesc_adapter/share/ackermann_vesc_adapter/package.ps1'
+[5.205s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/ackermann_vesc_adapter/share/ackermann_vesc_adapter/package.dsv'
+[5.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/ackermann_vesc_adapter/share/ackermann_vesc_adapter/package.sh'
+[5.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/ackermann_vesc_adapter/share/ackermann_vesc_adapter/package.bash'
+[5.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/ackermann_vesc_adapter/share/ackermann_vesc_adapter/package.zsh'
+[5.211s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/ackermann_vesc_adapter/share/colcon-core/packages/ackermann_vesc_adapter)
+[5.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive', 'pythonpath_develop')
+[5.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/build/drive/share/drive/hook/pythonpath_develop.ps1'
+[5.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/drive' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_ws/build/drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/drive/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/build/drive/build --no-deps symlink_data
+[5.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/build/drive/share/drive/hook/pythonpath_develop.dsv'
+[5.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/build/drive/share/drive/hook/pythonpath_develop.sh'
+[5.404s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/drive' for CMake module files
+[5.407s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/drive' for CMake config files
+[5.409s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/drive/lib'
+[5.409s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/drive/bin'
+[5.409s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/drive/lib/pkgconfig/drive.pc'
+[5.410s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/drive/lib/python3.12/site-packages'
+[5.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive', 'pythonpath')
+[5.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/drive/share/drive/hook/pythonpath.ps1'
+[5.413s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/drive/share/drive/hook/pythonpath.dsv'
+[5.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/drive/share/drive/hook/pythonpath.sh'
+[5.417s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/drive/bin'
+[5.417s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive)
+[5.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/drive/share/drive/package.ps1'
+[5.420s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/drive/share/drive/package.dsv'
+[5.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/drive/share/drive/package.sh'
+[5.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/drive/share/drive/package.bash'
+[5.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/drive/share/drive/package.zsh'
+[5.425s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/drive/share/colcon-core/packages/drive)
+[7.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/ros2_ws/src/gazebo_ackermann_steering_vehicle -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle
+[7.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle -- -j4 -l4
+[8.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/ros2_ws/src/vesc/vesc_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/vesc_msgs
+[8.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/ros2_ws/build/vesc_msgs -- -j4 -l4
+[26.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/ros2_ws/build/vesc_msgs -- -j4 -l4
+[26.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/ros2_ws/build/vesc_msgs
+[29.923s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_msgs)
+[29.924s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_msgs' for CMake module files
+[29.925s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_msgs' for CMake config files
+[29.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/ros2_ws/build/vesc_msgs
+[29.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'cmake_prefix_path')
+[29.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.ps1'
+[29.928s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.dsv'
+[29.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.sh'
+[29.930s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_msgs/lib'
+[29.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'ld_library_path_lib')
+[29.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.ps1'
+[29.931s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.dsv'
+[29.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.sh'
+[29.933s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_msgs/bin'
+[29.934s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_msgs/lib/pkgconfig/vesc_msgs.pc'
+[29.934s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages'
+[29.934s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'pythonpath')
+[29.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/hook/pythonpath.ps1'
+[29.936s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/hook/pythonpath.dsv'
+[29.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/hook/pythonpath.sh'
+[29.941s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_msgs/bin'
+[29.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/package.ps1'
+[29.948s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/package.dsv'
+[29.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/package.sh'
+[29.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/package.bash'
+[29.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/package.zsh'
+[29.955s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/vesc_msgs/share/colcon-core/packages/vesc_msgs)
+[29.956s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_msgs)
+[29.957s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_msgs' for CMake module files
+[29.958s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_msgs' for CMake config files
+[29.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'cmake_prefix_path')
+[29.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.ps1'
+[29.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.dsv'
+[29.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.sh'
+[29.966s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_msgs/lib'
+[29.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'ld_library_path_lib')
+[29.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.ps1'
+[29.967s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.dsv'
+[29.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.sh'
+[29.973s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_msgs/bin'
+[29.973s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_msgs/lib/pkgconfig/vesc_msgs.pc'
+[29.973s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages'
+[29.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'pythonpath')
+[29.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/hook/pythonpath.ps1'
+[29.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/hook/pythonpath.dsv'
+[29.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/hook/pythonpath.sh'
+[29.984s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_msgs/bin'
+[29.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/package.ps1'
+[29.986s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/package.dsv'
+[29.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/package.sh'
+[29.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/package.bash'
+[29.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/package.zsh'
+[29.999s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/vesc_msgs/share/colcon-core/packages/vesc_msgs)
+[30.002s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/ros2_ws/src/vesc/vesc_driver' with build type 'ament_cmake'
+[30.002s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/ros2_ws/src/vesc/vesc_driver'
+[30.003s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[30.003s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[30.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/vesc_driver': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/vesc_msgs:/home/pi/ros2_ws/install/vesc:/home/pi/ros2_ws/install/vesc_driver:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/ros2_ws/install/vesc_msgs/lib:/home/pi/ros2_ws/install/vesc_driver/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/aarch64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib /usr/bin/cmake /home/pi/ros2_ws/src/vesc/vesc_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/vesc_driver
+[33.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/vesc_driver' returned '0': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/vesc_msgs:/home/pi/ros2_ws/install/vesc:/home/pi/ros2_ws/install/vesc_driver:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/ros2_ws/install/vesc_msgs/lib:/home/pi/ros2_ws/install/vesc_driver/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/aarch64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib /usr/bin/cmake /home/pi/ros2_ws/src/vesc/vesc_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/vesc_driver
+[33.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/vesc_driver': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/vesc_msgs:/home/pi/ros2_ws/install/vesc:/home/pi/ros2_ws/install/vesc_driver:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/ros2_ws/install/vesc_msgs/lib:/home/pi/ros2_ws/install/vesc_driver/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/aarch64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib /usr/bin/cmake --build /home/pi/ros2_ws/build/vesc_driver -- -j4 -l4
+[35.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle -- -j4 -l4
+[35.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle
+[35.909s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ackermann_steering_vehicle)
+[35.910s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle' for CMake module files
+[35.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle
+[35.915s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle' for CMake config files
+[35.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ackermann_steering_vehicle', 'cmake_prefix_path')
+[35.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/hook/cmake_prefix_path.ps1'
+[35.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/hook/cmake_prefix_path.dsv'
+[35.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/hook/cmake_prefix_path.sh'
+[35.923s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/lib'
+[35.924s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/bin'
+[35.924s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/lib/pkgconfig/gazebo_ackermann_steering_vehicle.pc'
+[35.924s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/lib/python3.12/site-packages'
+[35.930s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/bin'
+[35.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/package.ps1'
+[35.940s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/package.dsv'
+[35.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/package.sh'
+[35.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/package.bash'
+[35.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/package.zsh'
+[35.952s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/colcon-core/packages/gazebo_ackermann_steering_vehicle)
+[35.957s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ackermann_steering_vehicle)
+[35.958s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle' for CMake module files
+[35.959s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle' for CMake config files
+[35.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ackermann_steering_vehicle', 'cmake_prefix_path')
+[35.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/hook/cmake_prefix_path.ps1'
+[35.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/hook/cmake_prefix_path.dsv'
+[35.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/hook/cmake_prefix_path.sh'
+[35.986s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/lib'
+[35.986s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/bin'
+[35.989s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/lib/pkgconfig/gazebo_ackermann_steering_vehicle.pc'
+[35.990s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/lib/python3.12/site-packages'
+[35.990s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/bin'
+[35.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/package.ps1'
+[36.001s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/package.dsv'
+[36.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/package.sh'
+[36.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/package.bash'
+[36.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/package.zsh'
+[36.029s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/colcon-core/packages/gazebo_ackermann_steering_vehicle)
+[59.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/vesc_driver' returned '0': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/vesc_msgs:/home/pi/ros2_ws/install/vesc:/home/pi/ros2_ws/install/vesc_driver:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/ros2_ws/install/vesc_msgs/lib:/home/pi/ros2_ws/install/vesc_driver/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/aarch64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib /usr/bin/cmake --build /home/pi/ros2_ws/build/vesc_driver -- -j4 -l4
+[59.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/vesc_driver': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/vesc_msgs:/home/pi/ros2_ws/install/vesc:/home/pi/ros2_ws/install/vesc_driver:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/ros2_ws/install/vesc_msgs/lib:/home/pi/ros2_ws/install/vesc_driver/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/aarch64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib /usr/bin/cmake --install /home/pi/ros2_ws/build/vesc_driver
+[60.114s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_driver)
+[60.114s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_driver' for CMake module files
+[60.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/vesc_driver' returned '0': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/vesc_msgs:/home/pi/ros2_ws/install/vesc:/home/pi/ros2_ws/install/vesc_driver:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pi/ros2_ws/install/vesc_msgs/lib:/home/pi/ros2_ws/install/vesc_driver/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/aarch64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib /usr/bin/cmake --install /home/pi/ros2_ws/build/vesc_driver
+[60.115s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_driver' for CMake config files
+[60.116s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'cmake_prefix_path')
+[60.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.ps1'
+[60.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.dsv'
+[60.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.sh'
+[60.118s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_driver/lib'
+[60.118s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'ld_library_path_lib')
+[60.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.ps1'
+[60.119s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.dsv'
+[60.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.sh'
+[60.120s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_driver/bin'
+[60.120s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_driver/lib/pkgconfig/vesc_driver.pc'
+[60.120s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_driver/lib/python3.12/site-packages'
+[60.120s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_driver/bin'
+[60.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/vesc_driver/share/vesc_driver/package.ps1'
+[60.121s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/vesc_driver/share/vesc_driver/package.dsv'
+[60.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/vesc_driver/share/vesc_driver/package.sh'
+[60.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/vesc_driver/share/vesc_driver/package.bash'
+[60.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/vesc_driver/share/vesc_driver/package.zsh'
+[60.123s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/vesc_driver/share/colcon-core/packages/vesc_driver)
+[60.124s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_driver)
+[60.124s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_driver' for CMake module files
+[60.125s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_driver' for CMake config files
+[60.125s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'cmake_prefix_path')
+[60.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.ps1'
+[60.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.dsv'
+[60.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.sh'
+[60.128s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_driver/lib'
+[60.128s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'ld_library_path_lib')
+[60.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.ps1'
+[60.129s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.dsv'
+[60.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.sh'
+[60.130s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_driver/bin'
+[60.131s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_driver/lib/pkgconfig/vesc_driver.pc'
+[60.131s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_driver/lib/python3.12/site-packages'
+[60.131s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc_driver/bin'
+[60.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/vesc_driver/share/vesc_driver/package.ps1'
+[60.132s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/vesc_driver/share/vesc_driver/package.dsv'
+[60.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/vesc_driver/share/vesc_driver/package.sh'
+[60.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/vesc_driver/share/vesc_driver/package.bash'
+[60.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/vesc_driver/share/vesc_driver/package.zsh'
+[60.137s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/vesc_driver/share/colcon-core/packages/vesc_driver)
+[60.139s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/ros2_ws/src/vesc/vesc' with build type 'ament_cmake'
+[60.139s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/ros2_ws/src/vesc/vesc'
+[60.139s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[60.139s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[60.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/vesc': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/vesc_driver:/home/pi/ros2_ws/install/vesc_msgs:/home/pi/ros2_ws/install/vesc:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/ros2_ws/src/vesc/vesc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/vesc
+[61.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/vesc' returned '0': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/vesc_driver:/home/pi/ros2_ws/install/vesc_msgs:/home/pi/ros2_ws/install/vesc:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/ros2_ws/src/vesc/vesc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/vesc
+[61.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/vesc': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/vesc_driver:/home/pi/ros2_ws/install/vesc_msgs:/home/pi/ros2_ws/install/vesc:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/ros2_ws/build/vesc -- -j4 -l4
+[61.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/vesc' returned '0': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/vesc_driver:/home/pi/ros2_ws/install/vesc_msgs:/home/pi/ros2_ws/install/vesc:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/ros2_ws/build/vesc -- -j4 -l4
+[61.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros2_ws/build/vesc': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/vesc_driver:/home/pi/ros2_ws/install/vesc_msgs:/home/pi/ros2_ws/install/vesc:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/ros2_ws/build/vesc
+[61.835s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc)
+[61.836s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc' for CMake module files
+[61.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros2_ws/build/vesc' returned '0': CMAKE_PREFIX_PATH=/home/pi/ros2_ws/install/vesc_driver:/home/pi/ros2_ws/install/vesc_msgs:/home/pi/ros2_ws/install/vesc:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/ros2_ws/build/vesc
+[61.837s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc' for CMake config files
+[61.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc', 'cmake_prefix_path')
+[61.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/vesc/share/vesc/hook/cmake_prefix_path.ps1'
+[61.838s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/vesc/share/vesc/hook/cmake_prefix_path.dsv'
+[61.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/vesc/share/vesc/hook/cmake_prefix_path.sh'
+[61.839s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc/bin'
+[61.839s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc/lib/pkgconfig/vesc.pc'
+[61.839s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc/lib/python3.12/site-packages'
+[61.840s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc/bin'
+[61.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/vesc/share/vesc/package.ps1'
+[61.841s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/vesc/share/vesc/package.dsv'
+[61.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/vesc/share/vesc/package.sh'
+[61.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/vesc/share/vesc/package.bash'
+[61.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/vesc/share/vesc/package.zsh'
+[61.842s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/vesc/share/colcon-core/packages/vesc)
+[61.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc)
+[61.843s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc' for CMake module files
+[61.844s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc' for CMake config files
+[61.844s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc', 'cmake_prefix_path')
+[61.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/vesc/share/vesc/hook/cmake_prefix_path.ps1'
+[61.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros2_ws/install/vesc/share/vesc/hook/cmake_prefix_path.dsv'
+[61.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros2_ws/install/vesc/share/vesc/hook/cmake_prefix_path.sh'
+[61.847s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc/bin'
+[61.847s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc/lib/pkgconfig/vesc.pc'
+[61.848s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc/lib/python3.12/site-packages'
+[61.848s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros2_ws/install/vesc/bin'
+[61.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/vesc/share/vesc/package.ps1'
+[61.849s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros2_ws/install/vesc/share/vesc/package.dsv'
+[61.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/vesc/share/vesc/package.sh'
+[61.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/vesc/share/vesc/package.bash'
+[61.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros2_ws/install/vesc/share/vesc/package.zsh'
+[61.855s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros2_ws/install/vesc/share/colcon-core/packages/vesc)
+[61.856s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[61.857s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[61.857s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[61.857s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[61.874s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[61.874s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[61.874s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[61.901s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[61.902s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/ros2_ws/install/local_setup.ps1'
+[61.903s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/ros2_ws/install/_local_setup_util_ps1.py'
+[61.904s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/ros2_ws/install/setup.ps1'
+[61.906s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/ros2_ws/install/local_setup.sh'
+[61.906s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/ros2_ws/install/_local_setup_util_sh.py'
+[61.907s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/ros2_ws/install/setup.sh'
+[61.908s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/ros2_ws/install/local_setup.bash'
+[61.909s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/ros2_ws/install/setup.bash'
+[61.910s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/ros2_ws/install/local_setup.zsh'
+[61.911s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/ros2_ws/install/setup.zsh'

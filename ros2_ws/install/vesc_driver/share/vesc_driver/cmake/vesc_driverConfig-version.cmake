@@ -1,0 +1,1 @@
+/home/pi/ros2_ws/build/vesc_driver/ament_cmake_core/vesc_driverConfig-version.cmake

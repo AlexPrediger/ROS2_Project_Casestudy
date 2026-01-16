@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/pi/ros2_ws/src/vesc/vesc" FILES "/home/pi/ros2_ws/build/vesc/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/vesc" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")

@@ -1,0 +1,111 @@
+[0.031s] Invoking command in '/home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/ros2_ws/src/gazebo_ackermann_steering_vehicle -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle
+[0.262s] -- The C compiler identification is GNU 13.3.0
+[0.455s] -- The CXX compiler identification is GNU 13.3.0
+[0.508s] -- Detecting C compiler ABI info
+[0.828s] -- Detecting C compiler ABI info - done
+[0.849s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.849s] -- Detecting C compile features
+[0.850s] -- Detecting C compile features - done
+[0.886s] -- Detecting CXX compiler ABI info
+[1.095s] -- Detecting CXX compiler ABI info - done
+[1.109s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.110s] -- Detecting CXX compile features
+[1.111s] -- Detecting CXX compile features - done
+[1.115s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[1.377s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.523s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.595s] -- Found rclcpp: 29.5.3 (/opt/ros/kilted/share/rclcpp/cmake)
+[1.681s] -- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[1.704s] -- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[1.738s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.783s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.957s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[1.964s] -- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+[2.137s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.160s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.269s] -- Found std_msgs: 5.5.1 (/opt/ros/kilted/share/std_msgs/cmake)
+[2.290s] -- Found sensor_msgs: 5.5.1 (/opt/ros/kilted/share/sensor_msgs/cmake)
+[2.343s] [0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[2.343s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[2.343s]   with modern CMake targets instead.  Try replacing this call with:
+[2.343s] 
+[2.343s]     target_link_libraries(vehicle_controller PUBLIC
+[2.343s]       ${std_msgs_TARGETS}
+[2.343s]       rclcpp::rclcpp
+[2.343s]     )
+[2.343s] 
+[2.344s] Call Stack (most recent call first):
+[2.344s]   CMakeLists.txt:17 (ament_target_dependencies)
+[2.344s] 
+[2.344s] [0m
+[2.345s] [0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[2.345s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[2.345s]   with modern CMake targets instead.  Try replacing this call with:
+[2.345s] 
+[2.345s]     target_link_libraries(joystick_controller PUBLIC
+[2.345s]       ${sensor_msgs_TARGETS}
+[2.345s]       ${std_msgs_TARGETS}
+[2.346s]       rclcpp::rclcpp
+[2.346s]       sensor_msgs::sensor_msgs_library
+[2.346s]     )
+[2.346s] 
+[2.346s] Call Stack (most recent call first):
+[2.346s]   CMakeLists.txt:20 (ament_target_dependencies)
+[2.346s] 
+[2.346s] [0m
+[2.354s] -- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[2.572s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.572s] -- Configured cppcheck include dirs: /home/pi/ros2_ws/src/gazebo_ackermann_steering_vehicle/include
+[2.572s] -- Configured cppcheck exclude dirs and/or files: 
+[2.573s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.574s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.575s] -- Added test 'lint_cmake' to check CMake code style
+[2.576s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.578s] -- Added test 'uncrustify' to check C / C++ code style
+[2.578s] -- Configured uncrustify additional arguments: 
+[2.579s] -- Added test 'xmllint' to check XML markup files
+[2.582s] -- Configuring done (2.5s)
+[2.609s] -- Generating done (0.0s)
+[2.619s] -- Build files have been written to: /home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle
+[2.642s] Invoked command in '/home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/ros2_ws/src/gazebo_ackermann_steering_vehicle -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle
+[2.645s] Invoking command in '/home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle -- -j4 -l4
+[2.747s] [ 50%] [32mBuilding CXX object CMakeFiles/vehicle_controller.dir/src/vehicle_controller.cpp.o[0m
+[2.748s] [ 50%] [32mBuilding CXX object CMakeFiles/joystick_controller.dir/src/joystick_controller.cpp.o[0m
+[9.870s] [01m[K/home/pi/ros2_ws/src/gazebo_ackermann_steering_vehicle/src/vehicle_controller.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> VehicleController::[01;32m[Kackermann_steering_angle[m[K()[m[K’:
+[9.870s] [01m[K/home/pi/ros2_ws/src/gazebo_ackermann_steering_vehicle/src/vehicle_controller.cpp:61:71:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<double, double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+[9.871s]    61 | std::pair<double, double> VehicleController::ackermann_steering_angle([01;36m[K)[m[K
+[9.871s]       |                                                                       [01;36m[K^[m[K
+[28.170s] [ 75%] [32m[1mLinking CXX executable joystick_controller[0m
+[28.400s] [100%] [32m[1mLinking CXX executable vehicle_controller[0m
+[29.758s] [100%] Built target joystick_controller
+[30.005s] [100%] Built target vehicle_controller
+[30.047s] Invoked command in '/home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle -- -j4 -l4
+[30.050s] Invoking command in '/home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle
+[30.072s] -- Install configuration: ""
+[30.073s] -- Execute custom install script
+[30.074s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/launch/joystick.launch.py
+[30.098s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/launch/rviz.launch.py
+[30.126s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/launch/vehicle.launch.py
+[30.153s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/model/lidar.xacro
+[30.177s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/model/vehicle.xacro
+[30.201s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/config/gz_ros2_control.yaml
+[30.231s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/config/parameters.yaml
+[30.256s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/config/ros_gz_bridge.yaml
+[30.281s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/lib/gazebo_ackermann_steering_vehicle/vehicle_controller
+[30.306s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/lib/gazebo_ackermann_steering_vehicle/joystick_controller
+[30.341s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/ament_index/resource_index/package_run_dependencies/gazebo_ackermann_steering_vehicle
+[30.368s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/ament_index/resource_index/parent_prefix_path/gazebo_ackermann_steering_vehicle
+[30.394s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/environment/ament_prefix_path.sh
+[30.418s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/environment/ament_prefix_path.dsv
+[30.453s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/environment/path.sh
+[30.477s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/environment/path.dsv
+[30.503s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/local_setup.bash
+[30.527s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/local_setup.sh
+[30.574s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/local_setup.zsh
+[30.603s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/local_setup.dsv
+[30.649s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/package.dsv
+[30.676s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/ament_index/resource_index/packages/gazebo_ackermann_steering_vehicle
+[30.714s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/cmake/gazebo_ackermann_steering_vehicleConfig.cmake
+[30.757s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/cmake/gazebo_ackermann_steering_vehicleConfig-version.cmake
+[30.794s] -- Symlinking: /home/pi/ros2_ws/install/gazebo_ackermann_steering_vehicle/share/gazebo_ackermann_steering_vehicle/package.xml
+[30.855s] Invoked command in '/home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle

@@ -1,0 +1,25 @@
+[1.244s] Invoking command in '/home/pi/ros2_ws/src/drive': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_ws/src/build/drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/src/install/drive/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/drive build --build-base /home/pi/ros2_ws/src/build/drive/build install --record /home/pi/ros2_ws/src/build/drive/install.log --single-version-externally-managed install_data
+[1.630s] running egg_info
+[1.656s] writing ../build/drive/drive.egg-info/PKG-INFO
+[1.657s] writing dependency_links to ../build/drive/drive.egg-info/dependency_links.txt
+[1.658s] writing entry points to ../build/drive/drive.egg-info/entry_points.txt
+[1.658s] writing requirements to ../build/drive/drive.egg-info/requires.txt
+[1.659s] writing top-level names to ../build/drive/drive.egg-info/top_level.txt
+[1.717s] reading manifest file '../build/drive/drive.egg-info/SOURCES.txt'
+[1.717s] adding license file 'LICENSE'
+[1.718s] writing manifest file '../build/drive/drive.egg-info/SOURCES.txt'
+[1.718s] running build
+[1.719s] running build_py
+[1.719s] copying drive/drive.py -> /home/pi/ros2_ws/src/build/drive/build/lib/drive
+[1.719s] running install
+[1.729s] running install_lib
+[1.756s] copying /home/pi/ros2_ws/src/build/drive/build/lib/drive/drive.py -> /home/pi/ros2_ws/src/install/drive/lib/python3.12/site-packages/drive
+[1.756s] byte-compiling /home/pi/ros2_ws/src/install/drive/lib/python3.12/site-packages/drive/drive.py to drive.cpython-312.pyc
+[1.757s] running install_data
+[1.757s] running install_egg_info
+[1.786s] removing '/home/pi/ros2_ws/src/install/drive/lib/python3.12/site-packages/drive-0.0.0-py3.12.egg-info' (and everything under it)
+[1.786s] Copying ../build/drive/drive.egg-info to /home/pi/ros2_ws/src/install/drive/lib/python3.12/site-packages/drive-0.0.0-py3.12.egg-info
+[1.788s] running install_scripts
+[1.981s] Installing talker script to /home/pi/ros2_ws/src/install/drive/lib/drive
+[1.982s] writing list of installed files to '/home/pi/ros2_ws/src/build/drive/install.log'
+[2.067s] Invoked command in '/home/pi/ros2_ws/src/drive' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_ws/src/build/drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/src/install/drive/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/drive build --build-base /home/pi/ros2_ws/src/build/drive/build install --record /home/pi/ros2_ws/src/build/drive/install.log --single-version-externally-managed install_data

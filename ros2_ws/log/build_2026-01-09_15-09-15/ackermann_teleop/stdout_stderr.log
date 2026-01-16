@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating ackermann_teleop.egg-info
+writing ackermann_teleop.egg-info/PKG-INFO
+writing dependency_links to ackermann_teleop.egg-info/dependency_links.txt
+writing entry points to ackermann_teleop.egg-info/entry_points.txt
+writing requirements to ackermann_teleop.egg-info/requires.txt
+writing top-level names to ackermann_teleop.egg-info/top_level.txt
+writing manifest file 'ackermann_teleop.egg-info/SOURCES.txt'
+reading manifest file 'ackermann_teleop.egg-info/SOURCES.txt'
+writing manifest file 'ackermann_teleop.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pi/ros2_ws/install/ackermann_teleop/lib/python3.12/site-packages/ackermann-teleop.egg-link (link to .)
+Installing keyboard_teleop script to /home/pi/ros2_ws/install/ackermann_teleop/lib/ackermann_teleop
+
+Installed /home/pi/ros2_ws/build/ackermann_teleop
+running symlink_data
+creating /home/pi/ros2_ws/install/ackermann_teleop/share/ament_index
+creating /home/pi/ros2_ws/install/ackermann_teleop/share/ament_index/resource_index
+creating /home/pi/ros2_ws/install/ackermann_teleop/share/ament_index/resource_index/packages
+symbolically linking /home/pi/ros2_ws/build/ackermann_teleop/resource/ackermann_teleop -> /home/pi/ros2_ws/install/ackermann_teleop/share/ament_index/resource_index/packages
+symbolically linking /home/pi/ros2_ws/build/ackermann_teleop/package.xml -> /home/pi/ros2_ws/install/ackermann_teleop/share/ackermann_teleop

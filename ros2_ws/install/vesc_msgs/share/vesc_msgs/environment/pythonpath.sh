@@ -1,0 +1,1 @@
+/home/pi/ros2_ws/build/vesc_msgs/ament_cmake_environment_hooks/pythonpath.sh

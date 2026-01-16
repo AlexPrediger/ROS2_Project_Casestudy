@@ -1,0 +1,15 @@
+/home/pi/ros2_ws/install/vesc/share/ament_index/resource_index/package_run_dependencies/vesc
+/home/pi/ros2_ws/install/vesc/share/ament_index/resource_index/parent_prefix_path/vesc
+/home/pi/ros2_ws/install/vesc/share/vesc/environment/ament_prefix_path.sh
+/home/pi/ros2_ws/install/vesc/share/vesc/environment/ament_prefix_path.dsv
+/home/pi/ros2_ws/install/vesc/share/vesc/environment/path.sh
+/home/pi/ros2_ws/install/vesc/share/vesc/environment/path.dsv
+/home/pi/ros2_ws/install/vesc/share/vesc/local_setup.bash
+/home/pi/ros2_ws/install/vesc/share/vesc/local_setup.sh
+/home/pi/ros2_ws/install/vesc/share/vesc/local_setup.zsh
+/home/pi/ros2_ws/install/vesc/share/vesc/local_setup.dsv
+/home/pi/ros2_ws/install/vesc/share/vesc/package.dsv
+/home/pi/ros2_ws/install/vesc/share/ament_index/resource_index/packages/vesc
+/home/pi/ros2_ws/install/vesc/share/vesc/cmake/vescConfig.cmake
+/home/pi/ros2_ws/install/vesc/share/vesc/cmake/vescConfig-version.cmake
+/home/pi/ros2_ws/install/vesc/share/vesc/package.xml

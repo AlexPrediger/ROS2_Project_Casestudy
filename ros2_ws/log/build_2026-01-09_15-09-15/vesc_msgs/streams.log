@@ -1,0 +1,286 @@
+[0.051s] Invoking command in '/home/pi/ros2_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/ros2_ws/src/vesc/vesc_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/vesc_msgs
+[0.900s] -- The C compiler identification is GNU 13.3.0
+[0.900s] -- The CXX compiler identification is GNU 13.3.0
+[0.900s] -- Detecting C compiler ABI info
+[0.900s] -- Detecting C compiler ABI info - done
+[0.900s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.901s] -- Detecting C compile features
+[0.901s] -- Detecting C compile features - done
+[0.902s] -- Detecting CXX compiler ABI info
+[0.902s] -- Detecting CXX compiler ABI info - done
+[0.902s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.902s] -- Detecting CXX compile features
+[0.903s] -- Detecting CXX compile features - done
+[0.903s] -- Found ament_cmake_auto: 2.7.3 (/opt/ros/kilted/share/ament_cmake_auto/cmake)
+[0.997s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.140s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.415s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.509s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.589s] -- Found rosidl_adapter: 4.9.5 (/opt/ros/kilted/share/rosidl_adapter/cmake)
+[3.231s] -- Found ament_cmake_ros_core: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros_core/cmake)
+[4.438s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.207s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.172s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.289s] -- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[7.326s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.328s] -- Added test 'lint_cmake' to check CMake code style
+[7.330s] -- Added test 'xmllint' to check XML markup files
+[7.336s] -- Configuring done (7.3s)
+[7.415s] -- Generating done (0.1s)
+[7.433s] -- Build files have been written to: /home/pi/ros2_ws/build/vesc_msgs
+[7.463s] Invoked command in '/home/pi/ros2_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi/ros2_ws/src/vesc/vesc_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_ws/install/vesc_msgs
+[7.463s] Invoking command in '/home/pi/ros2_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/ros2_ws/build/vesc_msgs -- -j4 -l4
+[7.586s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[7.617s] [  1%] Built target ament_cmake_python_symlink_vesc_msgs
+[8.137s] running egg_info
+[8.139s] creating vesc_msgs.egg-info
+[8.187s] writing vesc_msgs.egg-info/PKG-INFO
+[8.190s] writing dependency_links to vesc_msgs.egg-info/dependency_links.txt
+[8.191s] writing top-level names to vesc_msgs.egg-info/top_level.txt
+[8.191s] writing manifest file 'vesc_msgs.egg-info/SOURCES.txt'
+[8.347s] reading manifest file 'vesc_msgs.egg-info/SOURCES.txt'
+[8.347s] writing manifest file 'vesc_msgs.egg-info/SOURCES.txt'
+[8.498s] [  1%] Built target ament_cmake_python_build_vesc_msgs_egg
+[8.513s] [  1%] Built target vesc_msgs__rosidl_generator_type_description
+[8.539s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.574s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[10.253s] [  6%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_state__description.c.o[0m
+[10.258s] [  6%] Built target vesc_msgs__cpp
+[10.268s] [  7%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_state__functions.c.o[0m
+[10.277s] [  9%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_state__type_support.c.o[0m
+[10.298s] [ 10%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_state_stamped__description.c.o[0m
+[10.443s] [ 12%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_state_stamped__type_support.c.o[0m
+[10.445s] [ 14%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_state_stamped__functions.c.o[0m
+[10.478s] [ 15%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_imu__description.c.o[0m
+[10.490s] [ 17%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_imu__functions.c.o[0m
+[10.566s] [ 18%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_imu__type_support.c.o[0m
+[10.634s] [ 20%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_imu_stamped__description.c.o[0m
+[10.675s] [ 21%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.c.o[0m
+[10.685s] [ 23%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_imu_stamped__functions.c.o[0m
+[10.830s] [ 25%] [32m[1mLinking C shared library libvesc_msgs__rosidl_generator_c.so[0m
+[10.941s] [ 25%] Built target vesc_msgs__rosidl_generator_c
+[10.965s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.989s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.991s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.992s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.831s] [ 32%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vesc_msgs/msg/vesc_state__type_support.cpp.o[0m
+[12.864s] [ 34%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vesc_msgs/msg/vesc_state__type_support.cpp.o[0m
+[13.059s] [ 35%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vesc_msgs/msg/vesc_state_stamped__type_support.cpp.o[0m
+[13.327s] [ 37%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vesc_msgs/msg/vesc_imu__type_support.cpp.o[0m
+[13.610s] [ 39%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vesc_msgs/msg/vesc_imu_stamped__type_support.cpp.o[0m
+[13.623s] [ 40%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vesc_msgs/msg/detail/vesc_state__type_support.c.o[0m
+[13.752s] [ 42%] [32m[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_c.so[0m
+[13.757s] [ 43%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vesc_msgs/msg/detail/vesc_state__type_support_c.cpp.o[0m
+[13.800s] [ 45%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vesc_msgs/msg/detail/vesc_state_stamped__type_support.c.o[0m
+[13.991s] [ 46%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vesc_msgs/msg/detail/vesc_imu__type_support.c.o[0m
+[13.999s] [ 46%] Built target vesc_msgs__rosidl_typesupport_c
+[14.074s] [ 48%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[14.195s] [ 50%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.c.o[0m
+[14.425s] [ 51%] [32m[1mLinking C shared library libvesc_msgs__rosidl_typesupport_introspection_c.so[0m
+[14.612s] [ 51%] Built target vesc_msgs__rosidl_typesupport_introspection_c
+[14.637s] [ 53%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vesc_msgs/msg/vesc_state_stamped__type_support.cpp.o[0m
+[14.662s] [ 54%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[15.857s] [ 56%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vesc_msgs/msg/vesc_imu__type_support.cpp.o[0m
+[15.904s] [ 57%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vesc_msgs/msg/detail/vesc_state_stamped__type_support_c.cpp.o[0m
+[16.619s] [ 59%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vesc_msgs/msg/detail/dds_fastrtps/vesc_state__type_support.cpp.o[0m
+[16.810s] [ 60%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vesc_msgs/msg/vesc_imu_stamped__type_support.cpp.o[0m
+[16.816s] [ 62%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vesc_msgs/msg/detail/vesc_state__type_support.cpp.o[0m
+[17.876s] [ 64%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vesc_msgs/msg/detail/vesc_imu__type_support_c.cpp.o[0m
+[18.022s] [ 65%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vesc_msgs/msg/detail/vesc_state_stamped__type_support.cpp.o[0m
+[18.190s] [ 67%] [32m[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_cpp.so[0m
+[18.408s] [ 67%] Built target vesc_msgs__rosidl_typesupport_cpp
+[18.460s] [ 68%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vesc_msgs/msg/detail/vesc_imu_stamped__type_support_c.cpp.o[0m
+[18.621s] [ 70%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vesc_msgs/msg/detail/dds_fastrtps/vesc_state_stamped__type_support.cpp.o[0m
+[19.567s] [ 71%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vesc_msgs/msg/detail/vesc_imu__type_support.cpp.o[0m
+[20.075s] [ 73%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vesc_msgs/msg/detail/dds_fastrtps/vesc_imu__type_support.cpp.o[0m
+[20.229s] [ 75%] [32m[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[20.548s] [ 75%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c
+[20.577s] [ 76%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.cpp.o[0m
+[20.635s] [ 78%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vesc_msgs/msg/detail/dds_fastrtps/vesc_imu_stamped__type_support.cpp.o[0m
+[21.458s] [ 79%] [32m[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[21.764s] [ 79%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp
+[22.282s] [ 81%] [32m[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[22.411s] [ 81%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp
+[22.456s] [ 81%] Built target vesc_msgs
+[22.547s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[24.669s] [ 82%] Built target vesc_msgs__py
+[24.793s] [ 87%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_py.dir/rosidl_generator_py/vesc_msgs/msg/_vesc_imu_s.c.o[0m
+[24.799s] [ 84%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_py.dir/rosidl_generator_py/vesc_msgs/msg/_vesc_state_stamped_s.c.o[0m
+[24.799s] [ 87%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_py.dir/rosidl_generator_py/vesc_msgs/msg/_vesc_state_s.c.o[0m
+[24.818s] [ 89%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_py.dir/rosidl_generator_py/vesc_msgs/msg/_vesc_imu_stamped_s.c.o[0m
+[25.443s] [ 90%] [32m[1mLinking C shared library libvesc_msgs__rosidl_generator_py.so[0m
+[25.587s] [ 90%] Built target vesc_msgs__rosidl_generator_py
+[25.648s] [ 92%] [32mBuilding C object CMakeFiles/vesc_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[25.657s] [ 93%] [32mBuilding C object CMakeFiles/vesc_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[25.666s] [ 95%] [32mBuilding C object CMakeFiles/vesc_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[25.970s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[26.106s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[26.177s] [ 98%] Built target vesc_msgs_s__rosidl_typesupport_introspection_c
+[26.182s] [100%] [32m[1mLinking C shared module rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.so[0m
+[26.293s] [100%] Built target vesc_msgs_s__rosidl_typesupport_fastrtps_c
+[26.316s] [100%] Built target vesc_msgs_s__rosidl_typesupport_c
+[26.346s] Invoked command in '/home/pi/ros2_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi/ros2_ws/build/vesc_msgs -- -j4 -l4
+[26.377s] Invoking command in '/home/pi/ros2_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/ros2_ws/build/vesc_msgs
+[26.398s] -- Install configuration: ""
+[26.399s] -- Execute custom install script
+[26.400s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/ament_index/resource_index/rosidl_interfaces/vesc_msgs
+[26.427s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescState.json
+[26.448s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.json
+[26.480s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImu.json
+[26.502s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.json
+[26.524s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__functions.h
+[26.546s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__struct.h
+[26.578s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__type_support.h
+[26.601s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__functions.h
+[26.622s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__struct.h
+[26.644s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.h
+[26.674s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__functions.h
+[26.696s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__struct.h
+[26.717s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__type_support.h
+[26.739s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__functions.h
+[26.766s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__struct.h
+[26.788s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__type_support.h
+[26.810s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_generator_c__visibility_control.h
+[26.833s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_imu.h
+[26.853s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_imu_stamped.h
+[26.884s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_state.h
+[26.905s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_state_stamped.h
+[26.927s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/environment/library_path.sh
+[26.948s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/environment/library_path.dsv
+[26.978s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_c.h
+[27.002s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_c.h
+[27.023s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_c.h
+[27.045s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_c.h
+[27.074s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[27.095s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_c.h
+[27.118s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_c.h
+[27.139s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_c.h
+[27.166s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_c.h
+[27.189s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[27.211s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__builder.hpp
+[27.234s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__struct.hpp
+[27.255s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__traits.hpp
+[27.282s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__type_support.hpp
+[27.311s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__builder.hpp
+[27.333s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__struct.hpp
+[27.354s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__traits.hpp
+[27.385s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.hpp
+[27.408s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__builder.hpp
+[27.428s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__struct.hpp
+[27.449s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__traits.hpp
+[27.475s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__type_support.hpp
+[27.499s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__builder.hpp
+[27.520s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__struct.hpp
+[27.542s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__traits.hpp
+[27.569s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__type_support.hpp
+[27.591s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[27.612s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_imu.hpp
+[27.634s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_imu_stamped.hpp
+[27.656s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_state.hpp
+[27.684s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_state_stamped.hpp
+[27.705s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_cpp.hpp
+[27.726s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[27.748s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_cpp.hpp
+[27.774s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[27.796s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[27.818s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_cpp.hpp
+[27.840s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_cpp.hpp
+[27.865s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_cpp.hpp
+[27.888s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_cpp.hpp
+[27.910s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.sh
+[27.932s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.dsv
+[27.954s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs-1.1.0-py3.12.egg-info/PKG-INFO
+[27.981s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs-1.1.0-py3.12.egg-info/SOURCES.txt
+[28.003s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs-1.1.0-py3.12.egg-info/dependency_links.txt
+[28.026s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs-1.1.0-py3.12.egg-info/top_level.txt
+[28.048s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/__init__.py
+[28.074s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_c.c
+[28.096s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[28.117s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[28.139s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/msg/__init__.py
+[28.163s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/msg/_vesc_imu.py
+[28.188s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/msg/_vesc_imu_s.c
+[28.210s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/msg/_vesc_imu_stamped.py
+[28.233s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/msg/_vesc_imu_stamped_s.c
+[28.256s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/msg/_vesc_state.py
+[28.284s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/msg/_vesc_state_s.c
+[28.306s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/msg/_vesc_state_stamped.py
+[28.327s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/msg/_vesc_state_stamped_s.c
+[28.349s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.so
+[28.374s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.so
+[28.396s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.so
+[28.419s] -- Up-to-date symlink: /home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.so
+[28.419s] -- Up-to-date symlink: /home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.so
+[28.420s] -- Up-to-date symlink: /home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.so
+[28.420s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescState.idl
+[28.443s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.idl
+[28.472s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImu.idl
+[28.493s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.idl
+[28.516s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescState.msg
+[28.540s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.msg
+[28.569s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImu.msg
+[28.592s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.msg
+[28.613s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/ament_index/resource_index/package_run_dependencies/vesc_msgs
+[28.635s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/ament_index/resource_index/parent_prefix_path/vesc_msgs
+[28.657s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.sh
+[28.693s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.dsv
+[28.716s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/environment/path.sh
+[28.740s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/environment/path.dsv
+[28.770s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/local_setup.bash
+[28.799s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/local_setup.sh
+[28.823s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/local_setup.zsh
+[28.847s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/local_setup.dsv
+[28.874s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/package.dsv
+[28.899s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/ament_index/resource_index/packages/vesc_msgs
+[28.922s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake-extras.cmake
+[28.944s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.973s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.999s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[29.021s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[29.043s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[29.065s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[29.095s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig.cmake
+[29.121s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig-version.cmake
+[29.148s] -- Symlinking: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/package.xml
+[29.176s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_c.so
+[29.177s] -- Set non-toolchain portion of runtime path of "/home/pi/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_c.so" to ""
+[29.178s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_c.so
+[29.185s] -- Set non-toolchain portion of runtime path of "/home/pi/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[29.186s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_c.so
+[29.188s] -- Set non-toolchain portion of runtime path of "/home/pi/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_c.so" to ""
+[29.188s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_c.so
+[29.190s] -- Set non-toolchain portion of runtime path of "/home/pi/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_c.so" to ""
+[29.191s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so
+[29.192s] -- Set non-toolchain portion of runtime path of "/home/pi/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[29.193s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_cpp.so
+[29.194s] -- Set non-toolchain portion of runtime path of "/home/pi/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[29.196s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_cpp.so
+[29.197s] -- Set non-toolchain portion of runtime path of "/home/pi/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_cpp.so" to ""
+[29.324s] Listing '/home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs'...
+[29.324s] Compiling '/home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/__init__.py'...
+[29.324s] Listing '/home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/msg'...
+[29.324s] Compiling '/home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/msg/__init__.py'...
+[29.325s] Compiling '/home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/msg/_vesc_imu.py'...
+[29.325s] Compiling '/home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/msg/_vesc_imu_stamped.py'...
+[29.325s] Compiling '/home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/msg/_vesc_state.py'...
+[29.325s] Compiling '/home/pi/ros2_ws/install/vesc_msgs/lib/python3.12/site-packages/vesc_msgs/msg/_vesc_state_stamped.py'...
+[29.352s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_py.so
+[29.353s] -- Set non-toolchain portion of runtime path of "/home/pi/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_py.so" to ""
+[29.354s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_cExport.cmake
+[29.355s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_cExport-noconfig.cmake
+[29.356s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[29.357s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[29.358s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport.cmake
+[29.359s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[29.360s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport.cmake
+[29.361s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[29.362s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_cppExport.cmake
+[29.364s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[29.364s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[29.366s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[29.366s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[29.367s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport.cmake
+[29.372s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[29.372s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_pyExport.cmake
+[29.373s] -- Installing: /home/pi/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_pyExport-noconfig.cmake
+[29.386s] Invoked command in '/home/pi/ros2_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_ws/install/drive:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pi/ros2_ws/build/vesc_msgs

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/pi/ros2_ws/src/gazebo_ackermann_steering_vehicle" FILES "/opt/ros/kilted/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/gazebo_ackermann_steering_vehicle/environment")

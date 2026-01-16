@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/pi/ros2_ws/src/gazebo_ackermann_steering_vehicle" FILES "/home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle/ament_cmake_index/share/ament_index/resource_index/packages/gazebo_ackermann_steering_vehicle" "DESTINATION" "share/ament_index/resource_index/packages")

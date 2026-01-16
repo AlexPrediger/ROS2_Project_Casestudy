@@ -1,0 +1,1 @@
+/home/pi/ros2_ws/build/vesc/ament_cmake_core/vescConfig-version.cmake

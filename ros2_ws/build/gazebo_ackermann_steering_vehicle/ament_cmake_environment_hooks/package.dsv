@@ -1,0 +1,4 @@
+source;share/gazebo_ackermann_steering_vehicle/local_setup.bash
+source;share/gazebo_ackermann_steering_vehicle/local_setup.dsv
+source;share/gazebo_ackermann_steering_vehicle/local_setup.sh
+source;share/gazebo_ackermann_steering_vehicle/local_setup.zsh

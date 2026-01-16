@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating drive.egg-info
+writing drive.egg-info/PKG-INFO
+writing dependency_links to drive.egg-info/dependency_links.txt
+writing entry points to drive.egg-info/entry_points.txt
+writing requirements to drive.egg-info/requires.txt
+writing top-level names to drive.egg-info/top_level.txt
+writing manifest file 'drive.egg-info/SOURCES.txt'
+reading manifest file 'drive.egg-info/SOURCES.txt'
+writing manifest file 'drive.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pi/ros2_ws/install/drive/lib/python3.12/site-packages/drive.egg-link (link to .)
+Installing talker script to /home/pi/ros2_ws/install/drive/lib/drive
+
+Installed /home/pi/ros2_ws/build/drive
+running symlink_data
+creating /home/pi/ros2_ws/install/drive/share/ament_index
+creating /home/pi/ros2_ws/install/drive/share/ament_index/resource_index
+creating /home/pi/ros2_ws/install/drive/share/ament_index/resource_index/packages
+symbolically linking /home/pi/ros2_ws/build/drive/resource/drive -> /home/pi/ros2_ws/install/drive/share/ament_index/resource_index/packages
+symbolically linking /home/pi/ros2_ws/build/drive/package.xml -> /home/pi/ros2_ws/install/drive/share/drive

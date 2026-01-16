@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/pi/ros2_ws/src/vesc/vesc_msgs" FILES "/opt/ros/kilted/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/vesc_msgs/environment")

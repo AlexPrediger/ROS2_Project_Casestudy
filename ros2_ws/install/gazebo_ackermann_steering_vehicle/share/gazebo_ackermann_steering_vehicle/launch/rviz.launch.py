@@ -1,0 +1,1 @@
+/home/pi/ros2_ws/src/gazebo_ackermann_steering_vehicle/launch/rviz.launch.py

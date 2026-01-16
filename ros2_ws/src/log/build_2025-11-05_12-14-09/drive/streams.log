@@ -1,0 +1,22 @@
+[1.252s] Invoking command in '/home/pi/ros2_ws/src/drive': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_ws/src/build/drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/src/install/drive/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/drive build --build-base /home/pi/ros2_ws/src/build/drive/build install --record /home/pi/ros2_ws/src/build/drive/install.log --single-version-externally-managed install_data
+[1.643s] running egg_info
+[1.669s] writing ../build/drive/drive.egg-info/PKG-INFO
+[1.670s] writing dependency_links to ../build/drive/drive.egg-info/dependency_links.txt
+[1.671s] writing entry points to ../build/drive/drive.egg-info/entry_points.txt
+[1.672s] writing requirements to ../build/drive/drive.egg-info/requires.txt
+[1.672s] writing top-level names to ../build/drive/drive.egg-info/top_level.txt
+[1.733s] reading manifest file '../build/drive/drive.egg-info/SOURCES.txt'
+[1.733s] adding license file 'LICENSE'
+[1.734s] writing manifest file '../build/drive/drive.egg-info/SOURCES.txt'
+[1.734s] running build
+[1.734s] running build_py
+[1.734s] running install
+[1.744s] running install_lib
+[1.772s] running install_data
+[1.772s] running install_egg_info
+[1.801s] removing '/home/pi/ros2_ws/src/install/drive/lib/python3.12/site-packages/drive-0.0.0-py3.12.egg-info' (and everything under it)
+[1.801s] Copying ../build/drive/drive.egg-info to /home/pi/ros2_ws/src/install/drive/lib/python3.12/site-packages/drive-0.0.0-py3.12.egg-info
+[1.803s] running install_scripts
+[2.001s] Installing talker script to /home/pi/ros2_ws/src/install/drive/lib/drive
+[2.001s] writing list of installed files to '/home/pi/ros2_ws/src/build/drive/install.log'
+[2.085s] Invoked command in '/home/pi/ros2_ws/src/drive' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_ws/src/build/drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/src/install/drive/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/drive build --build-base /home/pi/ros2_ws/src/build/drive/build install --record /home/pi/ros2_ws/src/build/drive/install.log --single-version-externally-managed install_data

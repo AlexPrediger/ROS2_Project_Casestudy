@@ -1,0 +1,24 @@
+[2.660s] Invoking command in '/home/pi/ros2_ws/build/ackermann_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_ws/build/ackermann_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/ackermann_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/build/ackermann_teleop/build --no-deps symlink_data
+[3.833s] running develop
+[4.198s] running egg_info
+[4.198s] creating ackermann_teleop.egg-info
+[4.230s] writing ackermann_teleop.egg-info/PKG-INFO
+[4.233s] writing dependency_links to ackermann_teleop.egg-info/dependency_links.txt
+[4.233s] writing entry points to ackermann_teleop.egg-info/entry_points.txt
+[4.233s] writing requirements to ackermann_teleop.egg-info/requires.txt
+[4.233s] writing top-level names to ackermann_teleop.egg-info/top_level.txt
+[4.234s] writing manifest file 'ackermann_teleop.egg-info/SOURCES.txt'
+[4.304s] reading manifest file 'ackermann_teleop.egg-info/SOURCES.txt'
+[4.305s] writing manifest file 'ackermann_teleop.egg-info/SOURCES.txt'
+[4.346s] running build_ext
+[4.347s] Creating /home/pi/ros2_ws/install/ackermann_teleop/lib/python3.12/site-packages/ackermann-teleop.egg-link (link to .)
+[4.347s] Installing keyboard_teleop script to /home/pi/ros2_ws/install/ackermann_teleop/lib/ackermann_teleop
+[4.350s] 
+[4.350s] Installed /home/pi/ros2_ws/build/ackermann_teleop
+[4.350s] running symlink_data
+[4.351s] creating /home/pi/ros2_ws/install/ackermann_teleop/share/ament_index
+[4.351s] creating /home/pi/ros2_ws/install/ackermann_teleop/share/ament_index/resource_index
+[4.351s] creating /home/pi/ros2_ws/install/ackermann_teleop/share/ament_index/resource_index/packages
+[4.351s] symbolically linking /home/pi/ros2_ws/build/ackermann_teleop/resource/ackermann_teleop -> /home/pi/ros2_ws/install/ackermann_teleop/share/ament_index/resource_index/packages
+[4.351s] symbolically linking /home/pi/ros2_ws/build/ackermann_teleop/package.xml -> /home/pi/ros2_ws/install/ackermann_teleop/share/ackermann_teleop
+[4.480s] Invoked command in '/home/pi/ros2_ws/build/ackermann_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_ws/build/ackermann_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/ackermann_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/build/ackermann_teleop/build --no-deps symlink_data

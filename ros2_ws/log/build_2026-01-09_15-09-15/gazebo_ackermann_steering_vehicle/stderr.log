@@ -1,0 +1,32 @@
+[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(vehicle_controller PUBLIC
+      ${std_msgs_TARGETS}
+      rclcpp::rclcpp
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:17 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(joystick_controller PUBLIC
+      ${sensor_msgs_TARGETS}
+      ${std_msgs_TARGETS}
+      rclcpp::rclcpp
+      sensor_msgs::sensor_msgs_library
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:20 (ament_target_dependencies)
+
+[0m
+[01m[K/home/pi/ros2_ws/src/gazebo_ackermann_steering_vehicle/src/vehicle_controller.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> VehicleController::[01;32m[Kackermann_steering_angle[m[K()[m[K’:
+[01m[K/home/pi/ros2_ws/src/gazebo_ackermann_steering_vehicle/src/vehicle_controller.cpp:61:71:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<double, double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+   61 | std::pair<double, double> VehicleController::ackermann_steering_angle([01;36m[K)[m[K
+      |                                                                       [01;36m[K^[m[K

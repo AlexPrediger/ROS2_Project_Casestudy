@@ -1,0 +1,1 @@
+/home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle/ament_cmake_core/gazebo_ackermann_steering_vehicleConfig.cmake

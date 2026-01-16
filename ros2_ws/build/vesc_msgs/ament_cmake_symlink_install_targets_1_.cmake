@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/pi/ros2_ws/build/vesc_msgs/rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.so" "TARGETS" "vesc_msgs_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/vesc_msgs")

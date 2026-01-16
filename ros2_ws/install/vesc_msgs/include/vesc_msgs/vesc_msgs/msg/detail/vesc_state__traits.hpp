@@ -1,0 +1,1 @@
+/home/pi/ros2_ws/build/vesc_msgs/rosidl_generator_cpp/vesc_msgs/msg/detail/vesc_state__traits.hpp

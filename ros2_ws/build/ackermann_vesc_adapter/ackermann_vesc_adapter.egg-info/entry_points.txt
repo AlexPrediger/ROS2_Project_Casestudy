@@ -1,0 +1,2 @@
+[console_scripts]
+ackermann_to_vesc = ackermann_vesc_adapter.ackermann_to_vesc:main

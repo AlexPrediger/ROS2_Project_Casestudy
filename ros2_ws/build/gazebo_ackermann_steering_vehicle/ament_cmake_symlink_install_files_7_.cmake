@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/pi/ros2_ws/src/gazebo_ackermann_steering_vehicle" FILES "/home/pi/ros2_ws/build/gazebo_ackermann_steering_vehicle/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/gazebo_ackermann_steering_vehicle")

@@ -1,0 +1,36 @@
+[3.115s] Invoking command in '/home/pi/ros2_ws/build/ackermann_vesc_adapter': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_ws/build/ackermann_vesc_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/ackermann_vesc_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pi/ros2_ws/build/ackermann_vesc_adapter/build
+[3.712s] running develop
+[4.142s] Removing /home/pi/ros2_ws/install/ackermann_vesc_adapter/lib/python3.12/site-packages/ackermann-vesc-adapter.egg-link (link to .)
+[4.337s] Invoked command in '/home/pi/ros2_ws/build/ackermann_vesc_adapter' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_ws/build/ackermann_vesc_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/ackermann_vesc_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pi/ros2_ws/build/ackermann_vesc_adapter/build
+[4.349s] Invoking command in '/home/pi/ros2_ws/src/ackermann_vesc_adapter': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_ws/build/ackermann_vesc_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/ackermann_vesc_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ackermann_vesc_adapter build --build-base /home/pi/ros2_ws/build/ackermann_vesc_adapter/build install --record /home/pi/ros2_ws/build/ackermann_vesc_adapter/install.log --single-version-externally-managed install_data --force
+[5.021s] running egg_info
+[5.055s] writing ../../build/ackermann_vesc_adapter/ackermann_vesc_adapter.egg-info/PKG-INFO
+[5.056s] writing dependency_links to ../../build/ackermann_vesc_adapter/ackermann_vesc_adapter.egg-info/dependency_links.txt
+[5.058s] writing entry points to ../../build/ackermann_vesc_adapter/ackermann_vesc_adapter.egg-info/entry_points.txt
+[5.058s] writing requirements to ../../build/ackermann_vesc_adapter/ackermann_vesc_adapter.egg-info/requires.txt
+[5.059s] writing top-level names to ../../build/ackermann_vesc_adapter/ackermann_vesc_adapter.egg-info/top_level.txt
+[5.140s] reading manifest file '../../build/ackermann_vesc_adapter/ackermann_vesc_adapter.egg-info/SOURCES.txt'
+[5.141s] writing manifest file '../../build/ackermann_vesc_adapter/ackermann_vesc_adapter.egg-info/SOURCES.txt'
+[5.142s] running build
+[5.143s] running build_py
+[5.143s] creating /home/pi/ros2_ws/build/ackermann_vesc_adapter/build
+[5.143s] creating /home/pi/ros2_ws/build/ackermann_vesc_adapter/build/lib
+[5.143s] creating /home/pi/ros2_ws/build/ackermann_vesc_adapter/build/lib/ackermann_vesc_adapter
+[5.144s] copying ackermann_vesc_adapter/__init__.py -> /home/pi/ros2_ws/build/ackermann_vesc_adapter/build/lib/ackermann_vesc_adapter
+[5.144s] copying ackermann_vesc_adapter/ackermann_to_vesc.py -> /home/pi/ros2_ws/build/ackermann_vesc_adapter/build/lib/ackermann_vesc_adapter
+[5.145s] running install
+[5.155s] running install_lib
+[5.193s] creating /home/pi/ros2_ws/install/ackermann_vesc_adapter/lib/python3.12/site-packages/ackermann_vesc_adapter
+[5.193s] copying /home/pi/ros2_ws/build/ackermann_vesc_adapter/build/lib/ackermann_vesc_adapter/__init__.py -> /home/pi/ros2_ws/install/ackermann_vesc_adapter/lib/python3.12/site-packages/ackermann_vesc_adapter
+[5.193s] copying /home/pi/ros2_ws/build/ackermann_vesc_adapter/build/lib/ackermann_vesc_adapter/ackermann_to_vesc.py -> /home/pi/ros2_ws/install/ackermann_vesc_adapter/lib/python3.12/site-packages/ackermann_vesc_adapter
+[5.195s] byte-compiling /home/pi/ros2_ws/install/ackermann_vesc_adapter/lib/python3.12/site-packages/ackermann_vesc_adapter/__init__.py to __init__.cpython-312.pyc
+[5.195s] byte-compiling /home/pi/ros2_ws/install/ackermann_vesc_adapter/lib/python3.12/site-packages/ackermann_vesc_adapter/ackermann_to_vesc.py to ackermann_to_vesc.cpython-312.pyc
+[5.197s] running install_data
+[5.198s] copying resource/ackermann_vesc_adapter -> /home/pi/ros2_ws/install/ackermann_vesc_adapter/share/ament_index/resource_index/packages
+[5.201s] copying package.xml -> /home/pi/ros2_ws/install/ackermann_vesc_adapter/share/ackermann_vesc_adapter
+[5.201s] running install_egg_info
+[5.246s] Copying ../../build/ackermann_vesc_adapter/ackermann_vesc_adapter.egg-info to /home/pi/ros2_ws/install/ackermann_vesc_adapter/lib/python3.12/site-packages/ackermann_vesc_adapter-0.0.0-py3.12.egg-info
+[5.248s] running install_scripts
+[5.509s] Installing ackermann_to_vesc script to /home/pi/ros2_ws/install/ackermann_vesc_adapter/lib/ackermann_vesc_adapter
+[5.510s] writing list of installed files to '/home/pi/ros2_ws/build/ackermann_vesc_adapter/install.log'
+[5.664s] Invoked command in '/home/pi/ros2_ws/src/ackermann_vesc_adapter' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_ws/build/ackermann_vesc_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/ackermann_vesc_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ackermann_vesc_adapter build --build-base /home/pi/ros2_ws/build/ackermann_vesc_adapter/build install --record /home/pi/ros2_ws/build/ackermann_vesc_adapter/install.log --single-version-externally-managed install_data --force

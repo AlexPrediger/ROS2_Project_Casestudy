@@ -1,0 +1,1 @@
+/home/pi/ros2_ws/src/vesc/vesc_driver/include/vesc_driver/vesc_device_uuid_lookup.hpp
