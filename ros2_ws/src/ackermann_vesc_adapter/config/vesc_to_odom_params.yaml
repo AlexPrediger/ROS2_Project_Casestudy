@@ -1,0 +1,25 @@
+/**:
+  vesc_to_odom:
+    ros__parameters:
+      # Wheel and chassis dimensions
+      wheel_radius: 0.04            # Radius of drive wheels in meters
+      wheelbase: 0.3                # Distance between front and rear axles in meters
+      track_width: 0.2              # Distance between left and right wheels in meters
+      
+      # VESC conversion parameters
+      # ERPM (Electrical RPM) = motor_poles * mechanical_RPM
+      # Typical VESC motor: 14 poles, so ERPM = 7 * wheel_RPM
+      # This gain converts ERPM to motor angular velocity (rad/s)
+      erpm_to_speed_gain: 0.000216699  # 1.0 / 4614.0 (adjust for your motor/gearing)
+      
+      # Frame IDs for odometry
+      odom_frame: "odom"
+      base_frame: "base_link"
+      
+      # TF publishing
+      publish_tf: true              # Set to false if using robot_localization or similar
+      
+      # Covariance values (tune based on testing)
+      position_covariance: 0.01     # Position uncertainty
+      orientation_covariance: 0.1   # Orientation uncertainty
+      velocity_covariance: 0.01     # Velocity uncertainty

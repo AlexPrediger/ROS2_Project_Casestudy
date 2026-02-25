@@ -1,0 +1,44 @@
+/**:
+  ros__parameters:
+    # Body params - adjust these to match your real robot
+    body_length: 0.3 # Length of the vehicle's body [m]
+    body_width: 0.18 # Width of the vehicle's body [m]
+    body_height: 0.05 # Height of the vehicle's body [m]
+    body_density: 7850.0 # Density of the vehicle's body material [kg/m^3]
+
+    # Wheel params - measure your actual wheels
+    wheel_radius: 0.04 # Radius of each wheel [m]
+    wheel_width: 0.02 # Width of each wheel [m]
+    wheel_density: 900.0 # Density of the wheel material [kg/m^3]
+
+    # Kinematics params - tune these based on your robot's behavior
+    max_steering_angle: 0.6108652 # Maximum steering angle [rad] (~35 degrees)
+    max_steering_angular_velocity: 1.570796 # Maximum steering angular velocity [rad/s]
+    max_steering_effort: 1.0 # Maximum steering torque [Nm]
+    max_velocity: 2.0 # Maximum wheel velocity [m/s]
+    max_effort: 10.0 # Maximum wheel torque [Nm]
+
+    # Lidar params - adjust based on your lidar model
+    lidar_height: 0.05 # Height of the lidar sensor [m]
+    lidar_radius: 0.04 # Radius of the lidar sensor [m]
+    lidar_horizontal_offset: 0.1 # Horizontal offset from body center [m]
+    lidar_vertical_offset: 0.15 # Vertical offset from body top [m]
+    lidar_update_rate: 10.0 # Lidar scan rate [Hz]
+    lidar_samples: 720 # Number of samples per scan
+    lidar_min_angle: -3.14159265 # Minimum scan angle [rad]
+    lidar_max_angle: 3.14159265 # Maximum scan angle [rad]
+    lidar_min_range: 0.10 # Minimum range [m]
+    lidar_max_range: 12.0 # Maximum range [m] - adjust for your lidar
+
+    # VESC motor controller parameters
+    vesc_to_erpm_gain: 4614.0 # Conversion from motor speed to ERPM
+    vesc_to_erpm_offset: 0.0 # Offset in ERPM conversion
+    
+    # Steering servo parameters (for VESC servo control)
+    steering_to_servo_gain: 0.5833 # Conversion from steering angle to servo position
+    steering_to_servo_offset: 0.5 # Neutral position of servo (0.5 = center)
+
+    # Safety parameters
+    command_timeout: 0.5 # Stop robot if no command received for this duration [s]
+    max_acceleration: 2.0 # Maximum acceleration [m/s^2]
+    max_deceleration: 3.0 # Maximum deceleration [m/s^2]
